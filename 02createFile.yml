@@ -1,8 +1,8 @@
 ---
-- hosts: appServers
+- hosts: all
   tasks:
    - name: Create a file
      file:
-      path: /tmp/Mithun.txt 
+      path: /home/ec2-user/Mani.txt 
       state: touch
 ...
